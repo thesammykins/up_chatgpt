@@ -1,0 +1,4 @@
+interface:
+  display_name: "Up Banking"
+  short_description: "Query private Up balances and spending"
+  default_prompt: "Use $up-banking to show my available balances and summarise the last 30 days of spending."

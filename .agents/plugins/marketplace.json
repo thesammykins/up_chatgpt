@@ -1,0 +1,20 @@
+{
+  "name": "up-banking-local",
+  "interface": {
+    "displayName": "Up Banking Local"
+  },
+  "plugins": [
+    {
+      "name": "up-banking",
+      "source": {
+        "source": "local",
+        "path": "./plugins/up-banking"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    }
+  ]
+}

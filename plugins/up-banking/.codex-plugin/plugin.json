@@ -1,0 +1,40 @@
+{
+  "name": "up-banking",
+  "version": "0.1.0+codex.20260717024239",
+  "description": "Private Up Banking MCP with 1Password, macOS Keychain, or manual-session authentication; read the README before setup.",
+  "author": {
+    "name": "thesammykins"
+  },
+  "homepage": "https://developer.up.com.au/",
+  "license": "MIT",
+  "keywords": [
+    "up-banking",
+    "personal-finance",
+    "transactions",
+    "mcp",
+    "onepassword",
+    "keychain",
+    "cross-platform"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Up Banking",
+    "shortDescription": "Private Up balances, transactions, and cashflow",
+    "longDescription": "Read the README before setup. Adds a local MCP integration for personal Up accounts, balances, transaction search, category and tag metadata, and privacy-bounded cashflow summaries. A short-lived local broker uses 1Password, macOS Keychain with Touch ID/passcode, or a manual memory-only session, keeping the token outside Codex configuration and model context.",
+    "developerName": "thesammykins",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://developer.up.com.au/",
+    "defaultPrompt": [
+      "Show my Up account balances.",
+      "Summarise my last 30 days of spending by category.",
+      "Find my recent settled Up transactions."
+    ],
+    "brandColor": "#00A86B"
+  }
+}

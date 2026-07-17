@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "up-banking": {
+      "command": "node",
+      "args": [
+        "./mcp/server.mjs"
+      ],
+      "cwd": ".",
+      "tool_timeout_sec": 90
+    }
+  }
+}
