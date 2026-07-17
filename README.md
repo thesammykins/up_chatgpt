@@ -2,14 +2,23 @@
 
 This folder is an installable local Codex marketplace containing `up-banking` v0.1.0.
 
-## Install
+## Install directly from GitHub
+
+In a Terminal with Codex installed, add this GitHub marketplace and then install the plugin:
+
+```bash
+codex plugin marketplace add thesammykins/up_chatgpt --ref main
+codex plugin add up-banking@up-banking-local
+```
+
+Start a new Codex task after installation so the skill and MCP tools are loaded. Then read [the plugin README](plugins/up-banking/README.md) before running the interactive setup.
+
+## Install from a local checkout
 
 ```bash
 codex plugin marketplace add /absolute/path/to/up_chatgpt
 codex plugin add up-banking@up-banking-local
 ```
-
-Start a new Codex task after installation so the skill and MCP tools are loaded.
 
 ## Configure authentication securely
 
